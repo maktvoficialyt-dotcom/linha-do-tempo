@@ -1,0 +1,42 @@
+body{
+    font-family:'BBH Bartle', cursive;
+    background:#111;
+    color:#eed603;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    margin-top:100px;
+    text-align:center;
+}
+
+h1{
+    font-size:48px;
+    margin-bottom:40px;
+}
+
+p{
+    font-size:20px;
+    line-height:1.6;
+}
+
+.bottom-line{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:4px;
+    background:#eed603;
+}
+
+
+.kickboxing{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:30px;
+    height: 300px;
+    border-radius: 10px;
+}

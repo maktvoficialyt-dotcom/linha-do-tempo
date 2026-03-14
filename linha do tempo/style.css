@@ -1,0 +1,70 @@
+body{
+    font-family:'BBH Bartle', cursive;
+    background:#111;
+    color:#eed603;
+    text-align:center;
+}
+
+.timeline{
+    position:relative;
+    margin:120px auto;
+    width:80%;
+    height:4px;
+    background:#444;
+}
+
+/* linha que segue o mouse */
+.progress{
+    position:absolute;
+    height:4px;
+    width:0%;
+    background:#eed603;
+    top:0;
+    left:0;
+    pointer-events:none;
+}
+
+/* pontos */
+.timeline-container{
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    top:-20px;
+}
+
+.point{
+    position:relative;
+    text-align:center;
+}
+
+.point a{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    background:#eed603;
+    color:#111;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.point a:hover{
+    transform:scale(1.2);
+    background:#9c8d00;
+}
+
+.text{
+    position:absolute;
+    width:120px;
+}
+
+.top{
+    bottom:60px;
+}
+
+.bottom{
+    top:60px;
+}
